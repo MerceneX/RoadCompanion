@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SpeedingTicket</string>
+    <string-array name="obmoceje_hitrosti">
+        <item>Izberite območje vožnje</item>
+        <item>Območje Umirjenega Prometa</item>
+        <item>Cona 30</item>
+        <item>Naselje</item>
+        <item>Izven Naselja</item>
+        <item>Hitra Cesta</item>
+        <item>Avtocesta</item>
+    </string-array>
+</resources>

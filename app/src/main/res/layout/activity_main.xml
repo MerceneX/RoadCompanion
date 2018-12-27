@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mercenex.speedingticket.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#c8e3f7"
+        android:weightSum="12">
+
+        <Spinner
+            android:id="@+id/obmocjeHitrosti_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="#bcc9d3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:weightSum="3"
+            >
+
+            <TextView
+                android:id="@+id/vasaHitrost_textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:text="Vaša hitrost:"
+                android:layout_weight="0.75"
+                tools:ignore="NestedWeights" />
+
+            <EditText
+                android:id="@+id/vasaHitrost_EditText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:hint=""
+                android:inputType="number"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="km/h"
+                android:gravity="center_vertical|left"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/omejitev_textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:text="Omejitev:"
+                android:layout_weight="0.75"
+                tools:ignore="NestedWeights" />
+
+            <EditText
+                android:id="@+id/omejitev_editText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:hint=""
+                android:inputType="number" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="km/h"
+                android:gravity="center_vertical|left"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:weightSum="5"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Upoštevanje tolerance"
+                android:gravity="center"
+                android:layout_gravity="right" />
+            <CheckBox
+                android:id="@+id/toleranca_checkBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_gravity="right|center"
+                android:gravity="right|center"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/izracunKazni_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Izračun Kazni"
+            android:layout_weight="0.5"
+            android:layout_margin="50dp"/>
+
+        <TextView
+            android:id="@+id/prikazKazni_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="Kazen: " />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
