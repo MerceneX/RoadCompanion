@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valutes_array">
+        <item>Izberite valuto</item>
+        <item>EUR</item>
+        <item>HRK</item>
+        <item>USD</item>
+        <item>Funt</item>
+    </string-array>
+</resources>
