@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SpeedingTicket</string>
+    <string name="app_name">Road Companion</string>
     <string-array name="obmoceje_hitrosti">
         <item>Izberite območje vožnje</item>
         <item>Območje Umirjenega Prometa</item>

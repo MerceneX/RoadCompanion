@@ -1,31 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:background="#c8e3f7">
     <android.support.v7.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginHorizontal="80dp"
-        android:layout_marginVertical="30dp"
+        android:layout_marginHorizontal="70sp"
+        android:layout_marginVertical="30sp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Calculate:" />
-
-        <Button
-            android:id="@+id/penaltyButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Penalty" />
+            android:layout_margin="20sp"
+            android:text="Izberite način:"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/consumptionButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Consumption" />
+            android:layout_height="75sp"
+            android:layout_margin="20sp"
+            android:background="#80afd5"
+            android:text="Poraba Goriva:"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/cameraButton"
+            android:layout_width="match_parent"
+            android:layout_height="75sp"
+            android:layout_margin="20sp"
+            android:background="#80afd5"
+            android:text="Kamera"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/penaltyButton"
+            android:layout_width="match_parent"
+            android:layout_height="75sp"
+            android:layout_margin="20sp"
+            android:background="#80afd5"
+            android:text="Kazen"
+            android:textSize="25sp" />
 
     </android.support.v7.widget.LinearLayoutCompat>
 </android.support.constraint.ConstraintLayout>
