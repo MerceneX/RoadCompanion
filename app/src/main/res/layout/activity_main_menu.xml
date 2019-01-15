@@ -44,5 +44,14 @@
             android:text="Kazen"
             android:textSize="25sp" />
 
+        <Button
+            android:id="@+id/rolling_Distance_Button"
+            android:layout_width="match_parent"
+            android:layout_height="75sp"
+            android:layout_margin="20sp"
+            android:background="#80afd5"
+            android:text="Razdalja Koles"
+            android:textSize="25sp" />
+
     </android.support.v7.widget.LinearLayoutCompat>
 </android.support.constraint.ConstraintLayout>

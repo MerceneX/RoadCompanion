@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:padding="50dp">
+
+        <TextView
+            android:id="@+id/distance_Traveled_Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prevožena razdalja"
+            tools:ignore="MissingConstraints" />
+
+
+        <EditText
+            android:id="@+id/distance_Trraveled_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints" />
+
+
+
+        <TextView
+            android:id="@+id/tire_Diameter_Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Premer Kolesa"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/tire_Diameter_EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/distance_Traveled_Result_PlainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Obrat koles:"
+            tools:ignore="MissingConstraints"
+            android:padding="20dp"/>
+        <Button
+            android:id="@+id/calculate_Distance_Traveled_Button"
+            android:layout_width="169dp"
+            android:layout_height="62dp"
+            android:background="#80afd5"
+            android:text="Izračun Kazni"
+            tools:ignore="MissingConstraints"
+            android:padding="20dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
